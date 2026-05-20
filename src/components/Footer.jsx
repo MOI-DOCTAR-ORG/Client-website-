@@ -15,7 +15,7 @@ const Footer = () => {
         viewport={{ once: true }}
         className="bg-[#2450F5] rounded-b-[40px] px-6 md:px-10 lg:px-16 py-24 flex flex-col items-center justify-center text-center"
       >
-        <h2 className="text-white text-4xl md:text-6xl font-semibold leading-tight max-w-[800px]">
+        <h2 className="text-white text-3xl md:text-5xl font-semibold leading-tight max-w-[800px]">
           Your Health, Empowered
           <br />
           by Intelligence
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
 
             {/* TEXT */}
-            <h2 className="text-4xl md:text-6xl font-semibold leading-tight text-[#111] mt-8 max-w-[600px]">
+            <h2 className="text-3xl md:text-5xl font-semibold leading-tight text-[#111] mt-8 max-w-[600px]">
               Describe how you feel.
               <br />
               Get clarity in minutes.

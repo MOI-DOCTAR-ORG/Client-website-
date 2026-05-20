@@ -49,7 +49,7 @@ const Trust = () => {
         />
 
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-start">
-          
+
           {/* LEFT CONTENT */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
@@ -115,14 +115,12 @@ const Trust = () => {
 
                     {/* ICON */}
                     <motion.div
-                      animate={{ rotate: isActive ? 0 : 180 }}
                       transition={{ duration: 0.3 }}
                       className={`min-w-[52px] min-h-[52px] rounded-full flex items-center justify-center border transition-all duration-300
-                      ${
-                        isActive
+                        ${isActive
                           ? "bg-[#2450F5] border-[#2450F5] text-white"
                           : "border-[#2450F5]/40 text-[#2450F5]"
-                      }`}
+                        }`}
                     >
                       {isActive ? (
                         <HiOutlineArrowUp size={24} />

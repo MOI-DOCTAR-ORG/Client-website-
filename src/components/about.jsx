@@ -37,7 +37,7 @@ const About = () => {
       <motion.div
         initial={{ opacity: 0, y: 70 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
         viewport={{ once: true }}
         className="mb-16"
       >
@@ -58,7 +58,7 @@ const About = () => {
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
-              duration: 0.6,
+              duration: 0.5,
               delay: index * 0.2,
             }}
             viewport={{ once: true }}
