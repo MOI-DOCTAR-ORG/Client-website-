@@ -35,7 +35,7 @@ const Counter = ({ end, suffix = "" }) => {
 
 const Contact = () => {
   return (
-    <section className="w-full bg-[#f5f7fb] py-20 px-5 md:px-10 lg:px-16 overflow-hidden">
+    <section id="contact" className="scroll-mt-24 w-full bg-[#f5f7fb] py-20 px-5 md:px-10 lg:px-16 overflow-hidden">
 
       {/* ================================= */}
       {/* COUNTER SECTION */}

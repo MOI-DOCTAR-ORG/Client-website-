@@ -3,6 +3,7 @@ import Logo from '../assets/Logo.png'
 import Close from '../assets/close.png'
 import Menu from '../assets/burger-menu.png'
 
+
 const Navbar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false)
     return (
@@ -22,9 +23,9 @@ const Navbar = () => {
                     onClick={() => setSidebarOpen(false)} />
 
                 <a onClick={() => setSidebarOpen(false)} href="#" className='sm:hover:border-b text-blue-700 max-sm:text-white'>Home</a>
-                <a onClick={() => setSidebarOpen(false)} href="#How-it-Works" className='text-gray-800 max-sm:text-white'>How it Works</a>
-                <a onClick={() => setSidebarOpen(false)} href="#Features" className='text-gray-800 max-sm:text-white'>Features</a>
-                <a onClick={() => setSidebarOpen(false)} href="#Contact" className='text-gray-800 max-sm:text-white'>Contact</a>
+                <a onClick={() => setSidebarOpen(false)} href="#about" className='text-gray-800 max-sm:text-white'>How it Works</a>
+                <a onClick={() => setSidebarOpen(false)} href="#features" className='text-gray-800 max-sm:text-white'>Features</a>
+                <a onClick={() => setSidebarOpen(false)} href="#contact" className='text-gray-800 max-sm:text-white'>Contact</a>
             </div>
             <div className='flex items-center gap-2 sm:gap-4'>
                 <img src={Menu} alt="Menu" className='w-5 cursor-pointer sm:hidden'

@@ -32,7 +32,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="w-full bg-[#f5f7fb] py-24 px-6 md:px-10 lg:px-16 overflow-hidden">
+    <section id="features" className="scroll-mt-24 w-full bg-[#f5f7fb] py-24 px-6 md:px-10 lg:px-16 overflow-hidden">
       
       {/* TOP CONTENT */}
       <motion.div

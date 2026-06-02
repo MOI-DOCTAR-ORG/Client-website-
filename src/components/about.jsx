@@ -31,7 +31,7 @@ const About = () => {
   ];
 
   return (
-    <section className="w-full bg-[#f5f7fb] py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section id="about" className="scroll-mt-24 w-full bg-[#f5f7fb] py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
       
       {/* Top Content */}
       <motion.div
