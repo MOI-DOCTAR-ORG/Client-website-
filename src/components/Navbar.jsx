@@ -3,6 +3,7 @@ import Logo from '../assets/Logo.png'
 import Close from '../assets/close.png'
 import Menu from '../assets/burger-menu.png'
 
+const clientAppUrl = 'https://client-web-ebon-theta.vercel.app'
 
 const Navbar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -37,7 +38,7 @@ const Navbar = () => {
                     Login
                 </a>
 
-                <a href="#contact" className='text-sm max-sm:hidden flex
+                <a href={clientAppUrl} className='text-sm max-sm:hidden flex
             items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-full
             cursor-pointer hover:scale-103 transition-all bg-gradient-to-r from-blue-500 to-blue-700 max-[780px]:hidden'>
                     Get Started
