@@ -59,10 +59,10 @@ const peoples = [
     github: "https://github.com/peterlight123"
   },
   {
-    name: "Abdurazak",
+    name: "Abdulrazak",
     role: "Developer",
     imageUrl: Abdul,
-    twitterUrl: "https://x.com/dameitups",
+    twitterUrl: "https://x.com/dameitup",
     linkedinUrl: "https://www.linkedin.com/",
     github: "https://github.com/Abdurazak10-ghost"
   }
